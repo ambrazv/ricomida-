@@ -1,0 +1,130 @@
+
+body {
+   font-family: "Cabin", sans-serif;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.carousel-indicators{
+    bottom: -70px;
+} 
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+
+.hero-left img {
+  width: 100%;
+  height: 100%;
+} 
+.hero-right h1 {
+  text-align: left;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.hero-left {
+  height: 400px;
+}
+.hero {
+  padding: 50px 0px;
+}
+.btns button {
+  border: 2px solid #999;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.ingredientes-preparation {
+  margin-top: 100px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pecetas {
+  margin-top: 100px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+} 
+.card h3 {
+  font-size: 25px;
+  font-weight: 600;
+  height: 70px;
+}
+
+#recipeSection {
+  margin-top: 100px;
+}
+.subscribete {
+  background-color: #DC3545;
+  padding: 150px 0px;
+  color: #fff;
+}
+.subscribete-content {
+  text-align: center;
+}
+.subscribete-content p {
+  font-size: 25px;
+} 
+.subscribete-content button {
+  background-color: transparent;
+  outline: none;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 25px;
+  transition: .3s all;
+}
+.subscribete-content button:hover{
+    background-color: #fff;
+    color: #000;
+}
+footer {
+  background-color: #373A3C;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+footer p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .hero-left {
+      height: auto;
+  }
+  .hero-right, .hero-right h1{
+    text-align: center !important;
+}
+
+.container {
+  padding: 0px 25px;
+}
+#carouselExampleIndicators {
+    display: none;
+}
+}
